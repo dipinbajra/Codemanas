@@ -105,9 +105,11 @@
 .section2 {
     top: 30%;
     left: 30%;
+    padding-top: 50px;
     font-size: 30px;
     text-align: center;
 }
+
 
 .item {
     width: 100%;
