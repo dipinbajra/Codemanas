@@ -61,10 +61,12 @@
 
 /* TopNavBar */
 
+
 .section1 {
-    top: 30%;
-    left: 30%;
-    font-size: 49px;
+    padding-top: 10%;
+
+
+    font-size: 50px;
     text-align: center;
 }
 
@@ -73,10 +75,10 @@
 }
 
 .image1 img {
-    height: 400px;
-    width: 850px;
-    top: 65%;
-    left: 23%
+    height: 500px;
+    width: 1000px;
+    padding-top: 40px;
+
 }
 
 .flex-container {
@@ -114,67 +116,76 @@
     text-align: center;
 }
 
-.container1 img{
+.container1 img {
 
     width: 800px;
 }
+
 .container2 {
     width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
+
 .flex-container1 {
     display: flex;
-    background-color:#f4e19d;
+    background-color: #f4e19d;
     padding: 10px 0px 10px 90px;
- 
+
 }
+
 .container2>div {
     flex: 50%;
-    
+
 }
 
 
 .right {
-    padding:0% 20% 0% 25%;
+    padding: 0% 20% 0% 25%;
 }
 
-.item img{
+.item img {
     height: 150px;
     width: 130px;
 
 }
-.item1 img{
+
+.item1 img {
     float: right;
-   padding-right: 25%;
-   height: 250px;
-   width: 200px;
+    padding-right: 25%;
+    height: 250px;
+    width: 200px;
 
 
 }
+
 .flex-container2 {
     display: flex;
-    background-color:#f1b884;
+    background-color: #f1b884;
     padding: 10px 0px 10px 90px;
-    
+
 }
+
 .content {
-  
+
     text-align: center;
     margin: 0 auto;
     padding: 50px;
 }
+
 .flex-container3 {
     display: flex;
-   
+
     padding: 10px 0px 10px 90px;
 }
+
 .flex-container3>div {
     flex: 50%;
-     
-    
+
+
 }
-.flex-container3 div{
+
+.flex-container3 div {
     padding-left: 20%;
 }
