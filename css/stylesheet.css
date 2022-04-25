@@ -85,11 +85,20 @@
     display: flex;
     background-color: #f6cdb0;
     padding: 10px 10px 10px 0px;
+    
+}
+
+.flex-container img{
+    width:100% ;
+}
+
+.flex-container>div{
+    flex: 50%;
 }
 
 .side {
-    margin-top: 10px;
-    padding: 40px;
+    margin-top: 30px;
+    padding: 7% 5% 5% 5% ;
 }
 
 .section2 {
@@ -121,18 +130,38 @@
     width: 800px;
 }
 
-.container2 {
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+.container1 img{
+    padding-top: 10%;
+    height: 400px;
+    width: 1000px;
+    padding-bottom: 5%;
 }
 
 .flex-container1 {
     display: flex;
     background-color: #f4e19d;
-    padding: 10px 0px 10px 90px;
+    padding: 10px 0px 10px 0px;
+    
+}
+.flex-container1>div{
+    flex:50%
+   
+    
+}
+.flex-container1 img{
+    width: 100%;
+}
 
+.right {
+   padding: 5% 0% 10% 15%;
+   }
+   
+.container2 {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5% 5% 1% 5%;
 }
 
 .container2>div {
@@ -141,9 +170,7 @@
 }
 
 
-.right {
-    padding: 0% 20% 0% 25%;
-}
+
 
 .item img {
     height: 150px;
@@ -156,6 +183,7 @@
     padding-right: 25%;
     height: 250px;
     width: 200px;
+    padding-bottom: 50px;
 
 
 }
@@ -163,7 +191,7 @@
 .flex-container2 {
     display: flex;
     background-color: #f1b884;
-    padding: 10px 0px 10px 90px;
+    padding: 10px 0px 40px 90px;
 
 }
 
@@ -187,5 +215,6 @@
 }
 
 .flex-container3 div {
-    padding-left: 20%;
+    padding:3% 0% 5% 20%;
+    
 }
