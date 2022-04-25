@@ -28,7 +28,7 @@
 }
 
 .btn-primary {
-    background-color: darkblue;
+    background-color: #001727;
     padding: 10px 20px;
     border: none;
     color: #fff;
@@ -81,7 +81,7 @@
 
 .flex-container {
     display: flex;
-    background-color: lightpink;
+    background-color: #f6cdb0;
     padding: 10px 10px 10px 0px;
 }
 
@@ -118,12 +118,23 @@
 
     width: 800px;
 }
+.container2 {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
 .flex-container1 {
     display: flex;
-    background-color: yellow;
+    background-color:#f4e19d;
     padding: 10px 0px 10px 90px;
  
 }
+.container2>div {
+    flex: 50%;
+    
+}
+
 
 .right {
     padding:0% 20% 0% 25%;
@@ -133,4 +144,37 @@
     height: 150px;
     width: 130px;
 
+}
+.item1 img{
+    float: right;
+   padding-right: 25%;
+   height: 250px;
+   width: 200px;
+
+
+}
+.flex-container2 {
+    display: flex;
+    background-color:#f1b884;
+    padding: 10px 0px 10px 90px;
+    
+}
+.content {
+  
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px;
+}
+.flex-container3 {
+    display: flex;
+   
+    padding: 10px 0px 10px 90px;
+}
+.flex-container3>div {
+    flex: 50%;
+     
+    
+}
+.flex-container3 div{
+    padding-left: 20%;
 }
