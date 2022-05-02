@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Libre Bodoni', serif;
+    font-weight: 700;
+}
+
+button {
+    background-color: #001729;
+    padding: 10px 30px;
+    color: #fff;
+    border: none;
+    cursor:pointer;
+}
+button:hover{
+    background-color:#800000;
+    color:none;
+}
+button:active{
+    background-color: #FFB6C1;
+    transition: 0.4ms;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mtb-1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.m-100 {
+    margin: 100px 0;
+}
+
+/* Grid System */
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.col-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+}
+
+.col-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+}
+
+.col-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+.col-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.col-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}
+
+.col-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+
+.col-9 {
+    flex: 0 0 auto;
+    width: 75%;
+}
+
+.col-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+}
+
+.col-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+}
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+/* End Grid System */
+
+/* Header */
+.main-header .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header {
+    
+    margin-top: 20px;
+  
+
+
+    
+}
+
+.main-header .menu ul {
+    display: inline-flex;
+
+   
+   
+}
+
+.main-header .menu ul li {
+    margin-left: 40px;
+    text-transform: uppercase;
+  
+    
+}
+.main-header .menu ul li a {
+    text-decoration: none;
+}
+
+.main-header .responsive-menu  ul li a {
+    text-decoration: none;
+}
+ 
+a:hover{
+    color: #800000;
+}
+
+a:active{
+    color:#FFB6C1;
+}
+
+.responsive-menu-container {
+    display: none;
+}
+
+/* End Header */
+
+/* Jumbotron Section */
+.jumbotron-section {
+    text-align: center;
+}
+
+.jumbotron-section button {
+    margin: 40px 0;
+}
+
+.jumbotron-section h1 {
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* Jumbtron Section */
+
+/* Third Section */
+.third-section {
+    background-color: #fccbac;
+}
+
+.third-section .row {
+    align-items: center;
+}
+
+.third-section .description-text {
+    width: 500px;
+    padding-left: 100px;
+}
+
+.third-section button {
+    margin-top: 20px;
+}
+
+/* End Third Section */
+
+/* Fourth Section */
+.fifth-section {
+    background-color: #f7e394;
+}
+
+.fifth-section .row {
+    flex-direction: row-reverse;
+}
+
+/* End Fourth Section */
+
+/* Sixth Section */
+.sixth-section img {
+    padding-left: 50%;
+}
+
+/*End  Sixth Section */
+
+/* Seventh Section */
+.seventh-section {
+    background-color: #f1b884;
+    text-align: center;
+}
+
+.seventh-section h2 {
+
+    padding-top: 70px;
+}
+
+.seventh-section button {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+/*End Seventh Section */
+
+
+
+/* Eight Section */
+.eight-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*End  Eight Section */
+
+/* Start of responsive */
+@media only screen and (max-width: 1024px) {
+    .main-header .row  .logo {
+    width: 900px;
+
+
+
+
+}    
+
+
+      
+      
+    .menu {
+        display: none;
+    }
+
+   
+   
+    .main-header .responsive-menu-container {
+        
+  
+
+    display: flex;
+
+
+
+      
+    }
+    .main-header .row {
+        flex-direction: row;
+    }
+
+    
+    .responsive-menu-container .responsive-menu ul li a:active{
+        color: orange;
+    }
+    .responsive-menu {
+        display: none;
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+        top: 15%;
+        width: 100%;
+        background-color: #ccc;
+        background-image: repeating-radial-gradient( #f1b884,  #f7e394 10% ,  #f1b884 );
+        
+    }
+
+    .responsive-menu-container.open .responsive-menu {
+        display: block;
+        text-align: right;
+        
+    }
+
+    .row {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .third-section .description-text {
+        padding: unset;
+        margin: 40px 0;
+    }
+    
+
+    .fourth-section .row .col-6 h4{
+    padding: 40px;
+    }
+
+    .fourth-section h1{
+      font-size: 60px;
+        }
+
+    .fifth-section .row {
+        flex-direction: column;
+    }
+    .sixth-section img{
+        padding-left: 0%;
+    
+    }
+
+
+    .third-section img {
+
+      width: 800px;
+      padding-left: 90px;
+      padding-top: 50px;
+  
+    }
+    .seventh-section h2{
+        font-size: 12px;
+    }
+
+    .eight-section .row .col-6 h3{
+        padding-top: 50px;
+    }
+
+    .eight-section .row .col-6 p{
+        font-size: smaller;
+        padding: 20px;
+    }
+    
+    
+}       
+  
+
+    
+
+
+
+/* End of responsive */
+
+
+/* sticky menu */
+/* .main-header .sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 8px;
+    background:#000 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+} */
+
+
+/* End sticky menu */
