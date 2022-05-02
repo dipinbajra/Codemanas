@@ -3,9 +3,7 @@
     padding: 0;
 }
 
-html{
-    scroll-behavior: smooth;
-}
+
 
 body {
     font-family: 'Poppins';
@@ -206,7 +204,9 @@ button:active{
 /* End Grid System */
 
 /* Header */
+
 .main-header .row {
+
     justify-content: space-between;
     align-items: center;
 }
@@ -223,6 +223,7 @@ button:active{
 .main-header .menu ul {
     display: inline-flex;
 
+
    
    
 }
@@ -235,6 +236,7 @@ button:active{
 }
 .main-header .menu ul li a {
     text-decoration: none;
+    color: black;
 }
 
 .main-header .responsive-menu  ul li a {
@@ -484,7 +486,7 @@ a:active{
   
     height: 50px;
     border-radius: 45%;
-    background-color: #8B0000;
+    background-color:#f1b884;
 
  
     color:#001729;
@@ -496,7 +498,7 @@ a:active{
 
 }
 #btnScrolltotop:active{
-    background-color:#FF0000;
+    background-color:#ecb380;
 
 }
 
