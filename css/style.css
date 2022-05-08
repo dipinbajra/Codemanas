@@ -70,6 +70,14 @@
 
 /* End Header */
 
+/* darkmode theme toggle */
+.dark-mode {
+    background: color #f0f0ff;;
+    
+  }
+/*End darkmode theme toggle */
+
+
 /* Jumbotron Section */
 .jumbotron-section {
     text-align: center;
@@ -147,7 +155,7 @@
 /* Eight Section */
 .eight-section {
     text-align: center;
-    margin-top: 50px;
+    padding: 50px 0;
 }
 
 /*End  Eight Section */
@@ -195,7 +203,7 @@
         left: 50%;
         right: 50%;
         transform: translate(-50%, -50%);
-        top: 15%;
+        top: 155%;
         width: 100%;
         background-color: #ccc;
         background-image: repeating-radial-gradient( #f1b884,  #f7e394 10% ,  #f1b884 );
@@ -204,7 +212,7 @@
 
     .responsive-menu-container.open .responsive-menu {
         display: block;
-        text-align: right;
+        text-align: center;
         
     }
 
@@ -325,3 +333,9 @@
 
 
 /* End Scroll to top */
+
+/* Darkmodetoggle */
+.toggle-dark-mode{
+    background-color: black;
+}
+/*End Darkmodetoggle */

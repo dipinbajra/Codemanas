@@ -104,6 +104,10 @@ button:active{
     margin: 100px 0;
 }
 
+.p-100{
+    padding: 100px 0;
+}
+
 /* Grid System */
 @media (min-width: 576px) {
     .container {

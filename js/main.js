@@ -34,7 +34,68 @@ jQuery(document).ready(function($) {
       }
    });
 });
+// End sticky menu
 
-//End sticky menu
 
+let currentTheme = 'light';
+// darkmode theme toggle
+function toggleDarkMode() {
+ let darkModeToggle = document.querySelector('.toggle-dark-mode');
+
+ //arrow function const onDarkModeToggleHandler = (params) => {}
+ function onDarkModeToggleHandler(e){
+  // e.preventDefault();
+  // let sections = 
+  // if(currentTheme === 'light'){
+  
+  // }else{
+
+  // }
+  console.log('clicked')
+ }
+ 
+ darkModeToggle.addEventListener('click',onDarkModeToggleHandler)
+
+}
+//End darkmode theme toggle
+
+//after dom is ready
+// 3
+
+// let test = [
+//   {
+//     id: 1,
+//     firstname : "Malcom", 
+//     lastname: "Reynolds"
+//   },
+//   {
+//     id: 2,
+//     firstname : "Kaylee", 
+//     lastname: "Frye"  
+//   },
+//   {
+//     id: 3,
+//     firstname : "Jayne",
+//     lastname: "Cobb"
+//   }
+// ];
+
+ // test.map( (res) => {
+  //   console.log(res.firstname + ' ' + res.lastname);
+  // })
+
+// getUserList();
+
+// function getUserList() {
+//   test = {
+//       id: 1
+//     }
+
+//   console.log(test);
+
+  // for(var key in test){
+  //   let user = test[key];
+  //   console.log(user.firstname + ' ' + user.lastname);
+  // }
+}
 
