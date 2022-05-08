@@ -1,9 +1,9 @@
 // scroll to top button
 function openResponsive(menu) {
-    menu.classList.toggle('open');
-  }
+  menu.classList.toggle('open');
+}
 
-  const btnScrollToTop = document.getElementById("btnScrollToTop");
+const btnScrollToTop = document.getElementById("btnScrollToTop");
 
 btnScrollToTop.addEventListener("click", function () {
   window.scrollTo({
@@ -17,22 +17,22 @@ btnScrollToTop.addEventListener("click", function () {
 
 
 //sticky menu
-jQuery(document).ready(function($) {
-  
-   var mainHeader  = $('.main-header');
+jQuery(document).ready(function ($) {
+
+  var mainHeader = $('.main-header');
   //  var l  = mainHeader.length;
-  
-   $(window).scroll( function() {
-      // console.log( $(window).scrollTop());
 
-       var scrolled = $(window).scrollTop();
+  $(window).scroll(function () {
+    // console.log( $(window).scrollTop());
 
-      if(scrolled > 82) {
-        mainHeader.addClass('sticky');
-      } else {
-        mainHeader.removeClass('sticky');
-      }
-   });
+    var scrolled = $(window).scrollTop();
+
+    if (scrolled > 82) {
+      mainHeader.addClass('sticky');
+    } else {
+      mainHeader.removeClass('sticky');
+    }
+  });
 });
 // End sticky menu
 
@@ -40,23 +40,33 @@ jQuery(document).ready(function($) {
 let currentTheme = 'light';
 // darkmode theme toggle
 function toggleDarkMode() {
- let darkModeToggle = document.querySelector('.toggle-dark-mode');
+  let darkModeToggle = document.querySelector('.toggle-dark-mode');
 
- //arrow function const onDarkModeToggleHandler = (params) => {}
- function onDarkModeToggleHandler(e){
-  // e.preventDefault();
-  // let sections = 
-  // if(currentTheme === 'light'){
-  
-  // }else{
+  //arrow function const onDarkModeToggleHandler = (params) => {}
+  function onDarkModeToggleHandler(e) {
+    // e.preventDefault();
+    let sections = document.querySelectorAll('.dark-mode');
+    if (currentTheme === 'light') {
+      sections.forEach(section => {
+        section.classList.add('dark-mode-active');
+      })
+      currentTheme = 'dark'
+    } else {
+      sections.forEach(section => {
+        section.classList.remove('dark-mode-active');
+      })
+      currentTheme = 'light'
+    }
+  }
 
-  // }
-  console.log('clicked')
- }
- 
- darkModeToggle.addEventListener('click',onDarkModeToggleHandler)
+  darkModeToggle.addEventListener('click', onDarkModeToggleHandler)
 
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  toggleDarkMode()
+});
 //End darkmode theme toggle
 
 //after dom is ready
@@ -80,9 +90,9 @@ function toggleDarkMode() {
 //   }
 // ];
 
- // test.map( (res) => {
-  //   console.log(res.firstname + ' ' + res.lastname);
-  // })
+// test.map( (res) => {
+//   console.log(res.firstname + ' ' + res.lastname);
+// })
 
 // getUserList();
 
@@ -93,9 +103,61 @@ function toggleDarkMode() {
 
 //   console.log(test);
 
-  // for(var key in test){
-  //   let user = test[key];
-  //   console.log(user.firstname + ' ' + user.lastname);
-  // }
+// for(var key in test){
+//   let user = test[key];
+//   console.log(user.firstname + ' ' + user.lastname);
+// }
+
+var list = ['apple', 'banana', 'cat', 'dog', 'elephant'];
+
+
+
+function push(item) {
+ 
+  list.push(item);
+  console.log(list);
+
 }
+
+
+function pop(){
+
+
+  list.pop();
+  console.log(list);
+}
+
+function unshift(item) {
+  list.unshift(item);
+  console.log(list);
+  
+}
+function shift() {
+  list.shift();
+  console.log(list);
+  
+}
+
+
+
+
+//using if else to find the calue exist in the array.
+function find(item){
+
+
+if(list.indexOf(item) !== -1)  
+{  
+        alert("Yes, the value exists!")  
+}   
+else  
+{  
+        alert("No, the value is absent.")  
+}  
+
+}
+
+const array = ["one", "two", "three"]
+array.forEach(function (item) {
+  console.log(item);
+});
 

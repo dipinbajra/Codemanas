@@ -71,10 +71,13 @@
 /* End Header */
 
 /* darkmode theme toggle */
-.dark-mode {
-    background: color #f0f0ff;;
-    
-  }
+
+
+.dark-mode-active{
+    background-color: black;
+    color: white;
+}
+
 /*End darkmode theme toggle */
 
 
