@@ -183,7 +183,7 @@
    
    
     .main-header .responsive-menu-container {
-        
+        -
   
 
     display: flex;
@@ -339,6 +339,8 @@
 
 /* Darkmodetoggle */
 .toggle-dark-mode{
-    background-color: black;
+    background-color:#ccc;
+    color: #001729;
 }
 /*End Darkmodetoggle */
+

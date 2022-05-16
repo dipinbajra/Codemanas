@@ -112,12 +112,14 @@ var list = ['apple', 'banana', 'cat', 'dog', 'elephant'];
 
 
 
+
 function push(item) {
  
   list.push(item);
   console.log(list);
 
 }
+
 
 
 function pop(){
@@ -135,8 +137,11 @@ function unshift(item) {
 function shift() {
   list.shift();
   console.log(list);
+
   
 }
+
+
 
 
 
@@ -156,8 +161,16 @@ else
 
 }
 
-const array = ["one", "two", "three"]
-array.forEach(function (item) {
-  console.log(item);
-});
+function multipush(...item) {
+  item.forEach(i=> list.push(i))
+  
+  console.log(list);
+
+}
+
+multipush('gen','en','ken',1,2,3,4,5);
+
+
+
+
 
